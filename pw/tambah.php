@@ -80,4 +80,8 @@ if(isset($_POST['add'])) {
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
+<<<<<<< HEAD
   </html>
+=======
+  </html>
+>>>>>>> aa890880689477959c2241c2c6beb926a5053bbc
