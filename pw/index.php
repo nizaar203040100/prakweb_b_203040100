@@ -47,6 +47,8 @@ $buku = $rows;
         <td><?= $row["penulis"]; ?></td>
         <td><?= $row["tahun"]; ?> </td>
         <td><img src="img/<?= $row["gambar"]; ?>" alt="" width="100"></td>
+        <a href="ubah.php?id=<?= $book['id_buku']?>" class="waves-effect waves-light btn blue lighten-3 center"><i class="material-icons left">create</i>Change</a>
+        <a href="hapus.php?id=<?= $book['id_buku']?>" onclick="return confirm('Delete the data?')" class="waves-effect waves-light btn blue lighten-3"><i class="material-icons left">delete</i>Delete</a>
         </tr>
     <?php endforeach; ?>
   </table>
