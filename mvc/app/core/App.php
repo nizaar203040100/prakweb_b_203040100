@@ -5,7 +5,6 @@ class App {
     protected $method = 'index';
     protected $params = [];
     public function __construct() {
-        echo "Ok";
         $url = $this->parseURL();
         //controller
         if($url == NULL)
